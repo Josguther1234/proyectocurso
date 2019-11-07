@@ -3,5 +3,5 @@ from . import views
 
 urlpatterns = [
 
-    url(r'^animal/nueva/$', views.animal_nuevo, name='animal_nuevo'),
+    url(r'^animal/nueva/$', views.Horario_Huevo, name='Horario_Huevo'),
     ]
