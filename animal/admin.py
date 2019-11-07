@@ -1,3 +1,5 @@
 from django.contrib import admin
+from animal.models import Animal, Encargado, AnimalAdmin, EncargadoAdmin
 
-# Register your models here.
+admin.site.register(Animal, AnimalAdmin)
+admin.site.register(Encargado, EncargadoAdmin)
